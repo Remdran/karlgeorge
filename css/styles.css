@@ -75,7 +75,7 @@ h2 {
 .title {
     padding-top: 80px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 3em;
 }
 
@@ -83,5 +83,51 @@ h2 {
     height: 400px;
     width: 400px;
     background-color: grey;
-    margin: 50px 50px;
+    margin: 80px 50px;
+}
+
+/*FOOTER*/
+.footer-banner {
+    height: 400px;
+    background-color: #74AFAD;
+    margin-top: 120px;
+}
+
+.footer-title {
+    padding-top: 80px;
+    color: #ECECEA;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.about-text {
+    color: #ECECEA;
+    text-align: center;
+    font-weight: 400;
+    margin: 30px auto;
+    font-size: 1.2em;
+    width: 500px;
+}
+
+.details {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+.linkContact {
+    padding: 0 20px;
+    color: #ECECEA;
+}
+
+.linkContact:hover {
+    color: #D9853B;
+}
+
+.copyright {
+    background-color: #558C89;
+    color: #ECECEA;
+    text-align: center;
+    padding: 20px 0;
 }
