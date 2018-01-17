@@ -83,13 +83,6 @@ h2 {
     margin-top: 80px;
 }
 
-.half {
-    /*width: 100%;*/
-    /*float: left;*/
-    list-style-type: none;
-    /*margin: 10px 5px;*/
-}
-
 .row li {
     width: 32.6%;
     float: left;
@@ -158,4 +151,23 @@ img:hover {
     color: #ECECEA;
     text-align: center;
     padding: 20px 0;
+}
+
+/*MODAL*/
+.modal-dialog {
+    width: 60% !important;
+    max-width: 90%;
+}
+
+.modal-body {
+    overflow: auto;
+    height: 90%;
+}
+
+.modal-thumbnails {
+    width: 300px;
+}
+
+.skills {
+    color: #D9853B;
 }

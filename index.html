@@ -52,8 +52,9 @@
     <div class="row img-margin">
         <div class="col-md-12">
             <ul class="d-flex justify-content-center">
-                <li class="center"><img src="images/bloggall.png" alt=""></li>
-                <li class="center"><img src="images/todo1.png" alt=""></li>
+                <li class="center"><a href="#" data-toggle="modal" data-target="#portfolio_content"><img
+                        src="images/bloggall.png" alt="Blog Image Gallery"></a></li>
+                <li class="center"><img src="images/todo1.png" alt="To Do: Task List"></li>
             </ul>
         </div>
     </div>
@@ -62,9 +63,9 @@
     <div class="row">
         <div class="col-md-12 center">
             <ul>
-                <li class="img-responsive inline-block"><img src="images/rqm.png" alt=""></li>
-                <li class="img-responsive inline-block"><img src="images/jscalc2.png" alt=""></li>
-                <li class="img-responsive inline-block"><img src="images/sc1.png" alt=""></li>
+                <li class="img-responsive inline-block"><img src="images/rqm.png" alt="Random Quote Machine"></li>
+                <li class="img-responsive inline-block"><img src="images/jscalc2.png" alt="Javascript Machine"></li>
+                <li class="img-responsive inline-block"><img src="images/sc1.png" alt="Space Crusader"></li>
             </ul>
         </div>
     </div>
@@ -97,7 +98,43 @@
 <div class="copyright">Copyright &copy; Karl George</div>
 
 
+<div class="modal fade" id="portfolio_content">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Blog Image Gallery</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
+            <div class="modal-body">
+                <div class="col-md-12">
+                    <div class="images">
+                        <a href=""><img class="img-responsive modal-thumbnails" src="images/blog1.png" alt=""></a>
+                    </div>
+                    <p>This is an image gallery I made for a Blog site. It was created using PHP, Javascript, HTML, CSS
+                        and an SQL database.
+                        The image gallery allows the user to upload their photos to show to friends or followers in a
+                        clean, simple format. In order
+                        to make the upload process easier I utilised the Javascript plugin 'Dropzone' which allows the
+                        user to simply drag and drop
+                        multiple files to be uploaded at the same time. In addition the gallery also includes an admin
+                        panel which allows the user to
+                        edit or delete their pictures. The admin dashboard also includes a Google Chart to visualise
+                        multiple site statistics such as
+                        number of views, number of pictures in the database and how many comments each picture has
+                        etc.</p>
+                    <p class="skills">PHP | Javascript | HTML | CSS | SQL</p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 
 
 
