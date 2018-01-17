@@ -164,8 +164,13 @@ img:hover {
     height: 90%;
 }
 
+.images {
+    text-align: center;
+}
+
 .modal-thumbnails {
     width: 300px;
+    margin: 0 20px;
 }
 
 .port-info {
