@@ -168,6 +168,10 @@ img:hover {
     width: 300px;
 }
 
+.port-info {
+    margin: 60px 0 40px;
+}
+
 .skills {
     color: #D9853B;
 }
