@@ -173,10 +173,24 @@ img:hover {
     margin: 0 20px;
 }
 
+.modal_button {
+    text-align: center;
+}
+
 .port-info {
     margin: 60px 0 40px;
 }
 
 .skills {
     color: #D9853B;
+    margin-bottom: 30px;
+}
+
+.modal_links {
+    margin: 0 20px;
+    color: #D9853B;
+}
+
+.modal_links:hover {
+    color: #558C89;
 }
