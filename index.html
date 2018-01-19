@@ -37,8 +37,9 @@
         </div>
     </div>
 </nav> <!--END OF NAV-->
-<section id="top">
+
 <!--BANNER-->
+<section id="top">
 <div class="bg-banner">
     <div class="wrapper">
         <h1>KARL GEORGE</h1>
@@ -49,33 +50,41 @@
 </section> <!--END OF BANNER-->
 
 <!--PORTFOLIO SECTION-->
-<section id="portfolio">
+<section id="portfolio" class="port-margin">
     <div class="wrapper">
-        <div class="row img-margin">
-            <div class="col-md-12">
-                <ul class="d-flex justify-content-center">
-                    <li class="center"><a href="#" data-toggle="modal" data-target="#big_modal"><img
-                            src="images/bloggall.png" alt="Blog Image Gallery"></a></li>
-                    <li class="center"><a href="#" data-toggle="modal" data-target="#todo_modal"><img
-                            src="images/todo1.png" alt="To Do: Task List"></a></li>
-                </ul>
-            </div>
-        </div>
-
-
         <div class="row">
-            <div class="col-md-12 center">
-                <ul>
-                    <li class="img-responsive inline-block"><a href="#" data-toggle="modal"
-                                                               data-target="#rqm_modal"><img src="images/rqm.png"
-                                                                                             alt="Random Quote Machine"></a>
-                    </li>
-                    <li class="img-responsive inline-block"><a href="#" data-toggle="modal" data-target="#jscalc_modal"><img
-                            src="images/jscalc2.png" alt="Javascript Machine"></a></li>
-                    <li class="img-responsive inline-block"><a href="#" data-toggle="modal" data-target="#sc_modal"><img
-                            src="images/sc1.png" alt="Space Crusader"></a></li>
-                </ul>
+
+            <div class="col-sm-4 portfolio-object">
+                <a href="#big_modal" data-toggle="modal" class="portfolio-link">
+                    <img src="images/bloggall.png" alt="Blog Image Gallery" class="img-responsive port-img">
+                </a>
             </div>
+
+
+            <div class="col-sm-4 portfolio-object">
+                <a href="#todo_modal" data-toggle="modal" class="portfolio-link">
+                    <img src="images/todo1.png" alt="To Do: Task List" class="img-responsive port-img">
+                </a>
+            </div>
+
+            <div class="col-sm-4 portfolio-object">
+                <a href="#rqm_modal" data-toggle="modal" class="portfolio-link">
+                    <img src="images/rqm.png" alt="Random Quote Machine" class="img-responsive port-img">
+                </a>
+            </div>
+
+            <div class="col-sm-4 portfolio-object">
+                <a href="#jscalc_modal" data-toggle="modal" class="portfolio-link">
+                    <img src="images/jscalc2.png" alt="Javascript Calculator" class="img-responsive port-img">
+                </a>
+            </div>
+
+            <div class="col-sm-4 portfolio-object">
+                <a href="#sc_modal" data-toggle="modal" class="portfolio-link">
+                    <img src="images/sc1.png" alt="Space Crusader" class="img-responsive port-img">
+                </a>
+            </div>
+
         </div>
     </div>
 </section> <!--END OF PORTFOLIO-->
@@ -89,7 +98,7 @@
                 <div class="row">
                     <div class="col-md-6 d-inline-block about">
                         <h3 class="footer-title">ABOUT ME</h3>
-                        <p class="about-text">Hello. My name is Karl George and I am a web developer based in Liverpool,
+                        <p class="about-text">Hello. My name is Karl George, I am a web developer based in Liverpool,
                             UK.
                             My main skills include PHP, Javascript, HTML and CSS. I enjoy creating clean, responsive
                             websites. If you would like to get in touch please use any of the links in the Contact Me
