@@ -8,28 +8,15 @@
 - Make responsive
 - Fix the image gallery images
 - Look into controlling the active states with javascript and where on the page the user is to activate the active class
-
+- Hamburger menu needs a background
 
 
 RESPONSIVE ISSUES
-
-1200
-- Images in modal too large
-
-992
-- Images in portfolio section are on new lines
-- Font sizes are too big
-- Modal images far too large
-
 768
-- Images in portfolio section are on new lines
 - Font sizes are too big
-- Modal images far too large
-- Contact section overlapping
-- Portfolio section needs a new layout?
+- Contact section needs an horizontal rule when it hits the new break
 
 576
 - Hamburger overlapping
 - Font sizes
-- Portfolio section needs a new layout
-- Contact section overlapping
+

@@ -53,7 +53,7 @@ a {
 /*BANNER*/
 .bg-banner {
     background-color: #74AFAD;
-    height: 550px;
+    padding-bottom: 140px;
 }
 
 h1 {
@@ -81,7 +81,7 @@ h2 {
 
 /*PORTFOLIO*/
 .port-margin {
-    margin-top: 80px;
+    margin: 80px auto 0;
     text-align: center;
 }
 
@@ -95,16 +95,17 @@ h2 {
 .portfolio-object {
     display: inline-block;
     width: 32.9%;
+    margin: 0 auto;
 }
 
 .portfolio-link {
     max-width: 400px;
     display: block;
+    margin: 0 auto;
 }
 
 /*FOOTER*/
 .footer-banner {
-    height: 400px;
     background-color: #74AFAD;
     margin-top: 120px;
 }
@@ -123,13 +124,15 @@ h2 {
     font-weight: 400;
     margin: 30px auto;
     font-size: 1.2em;
-    width: 500px;
+    width: 90%;
+    padding: 5px;
 }
 
 .details {
     margin: 50px auto;
     text-align: center;
     font-size: 3em;
+    padding: 5px;
 }
 
 .linkContact {
@@ -150,17 +153,21 @@ h2 {
 
 /*MODAL*/
 .modal-dialog {
-    width: 60% !important;
-    max-width: 90%;
+    width: 80% !important;
+    max-width: 80%;
+    text-align: center;
 }
 
 .modal-body {
     overflow: auto;
-    height: 90%;
 }
 
 .images {
     text-align: center;
+}
+
+.modal_img_link {
+    margin: 0 auto;
 }
 
 .modal-thumbnails {
@@ -168,6 +175,7 @@ h2 {
     /*margin: 0 20px;*/
     height: auto;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .modal_button {
@@ -176,6 +184,7 @@ h2 {
 
 .port-info {
     margin: 60px 0 40px;
+    padding: 0 20px;
 }
 
 .skills {
@@ -190,4 +199,34 @@ h2 {
 
 .modal_links:hover {
     color: #558C89;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 767px) {
+    .modal-thumbnails {
+        max-width: 250px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-object {
+        width: 100%;
+    }
+
+    .modal-dialog {
+        width: 80% !important;
+        max-width: 80%;
+        margin: 30px auto;
+    }
+
+    .modal-thumbnails {
+        max-width: 200px;
+        margin: 20px auto;
+    }
+
+    .modal_links {
+        margin-bottom: 20px;
+    }
 }
