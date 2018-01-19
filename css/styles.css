@@ -9,6 +9,10 @@ body {
     background-color: #ECECEA;
 }
 
+a {
+    outline: 0;
+}
+
 .wrapper {
     max-width: 90%;
     width: 1440px;
@@ -40,6 +44,10 @@ body {
 
 .navbar-inverse .navbar-nav .nav-link:hover {
     color: #D9853B;
+}
+
+.active {
+    color: #D9853B !important;
 }
 
 /*BANNER*/
