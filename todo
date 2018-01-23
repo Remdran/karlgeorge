@@ -5,18 +5,8 @@
 - Color the nav link the orange active color when its on that section - DONE
 - Fix the brand link to take you to the top of the page - DONE
 - Fix a tag images to not have that border around when its been clicked - DONE
-- Make responsive
+- Hamburger menu needs to close after clicking a link  - DONE
+- Make responsive - DONE
 - Fix the image gallery images
 - Look into controlling the active states with javascript and where on the page the user is to activate the active class
-- Hamburger menu needs a background
-
-
-RESPONSIVE ISSUES
-768
-- Font sizes are too big
-- Contact section needs an horizontal rule when it hits the new break
-
-576
-- Hamburger overlapping
-- Font sizes
 
